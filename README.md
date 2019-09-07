@@ -9,13 +9,17 @@ OpenCV 2.4.9 (make sure QT enabled when installing Opencv)
 ## Usage
 1. clone this repo
 ```
-git clone
+git clone https://github.com/NathanUA/EdgeTemplateTracker.git
+```
+and Download the dataset
+```
+git clone https://github.com/NathanUA/Edge_Template_Tracking_Dataset.git
 ```
 
 2. Go to the root directory run ```./STPF_main```. If it doesn't work, then you have to recompile it by command ```make```.
 
 3. Run on different mode
-Run the code on recorded videos by commend: "./STPF_main 1 ../../data/videos_avi/box_359.avi"
+Run the code on recorded videos by commend: "./STPF_main 1 ../../data/videos_avi/box_359.avi" (video path should be configured according to your settings.)
 Run the code on webcam videos by commend: "./STPF_main 0"
 
 4. Initialize to-be-tracked edge template in the first frame.
