@@ -28,7 +28,7 @@ Run the code on webcam videos by commend: "./STPF_main 0".<br>
 (3) Press ```f``` can undo the selection of the last fragment.<br>
 (4) Press ```a``` to switch between the edge fragment selection mode and line segments drawing mode.<br>
 (5) Press ```o``` or ```c``` to indicate open or closed (start and end pixels of the selected edge fragments will be connected after mouse middle button clicking in step (6)) edge template.<br>
-(5) Click mouse middle button for finishing the edge template selection.<br>
+(6) Click mouse middle button for finishing the edge template selection.<br>
 
 5. ```Is it the last boundary of the object ?``` Press ```y``` to initialize another target, press ```n``` to continue labeling of the same target.<br>
 
