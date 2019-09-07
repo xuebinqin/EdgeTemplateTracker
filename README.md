@@ -36,7 +36,7 @@ Run the code on webcam videos by commend: ```./STPF_main 0```.<br>
 
 ## Citation
 ```
-@InProceedings{Qin2019BASNet,
+@InProceedings{Qin2018ETTracker,
   author = {Qin, Xuebin and He, Shida and Zhang, Zichen and Dehghan, Masood and Jin, Jun and Jagersand, Martin.},
   title = {Real-Time Edge Template Tracking via Homography Estimation},
   booktitle={IEEE/RSJ IROS},

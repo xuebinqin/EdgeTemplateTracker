@@ -19,8 +19,8 @@ git clone https://github.com/NathanUA/Edge_Template_Tracking_Dataset.git
 2. Go to the root directory run ```./STPF_main```. If it doesn't work, then you have to recompile it by command ```make```.
 
 3. Run on different modes <br>.
-Run the code on recorded videos by commend: "./STPF_main 1 ../../data/videos_avi/box_359.avi" (video path should be configured according to your settings).<br>
-Run the code on webcam videos by commend: "./STPF_main 0".<br>
+Run the code on recorded videos by commend: ```./STPF_main 1 ../../data/videos_avi/box_359.avi``` (video path should be configured according to your settings).<br>
+Run the code on webcam videos by commend: ```./STPF_main 0```.<br>
 
 4. Initialize to-be-tracked edge template in the first frame.<br>
 (1) Sequentially select the edge fragments by mouse left button clicking (mouse middle button scroll for zoom-in or zoom-out).<br>
@@ -36,7 +36,7 @@ Run the code on webcam videos by commend: "./STPF_main 0".<br>
 
 ## Citation
 ```
-@InProceedings{Qin2019BASNet,
+@InProceedings{Qin2018ETTracker,
   author = {Qin, Xuebin and He, Shida and Zhang, Zichen and Dehghan, Masood and Jin, Jun and Jagersand, Martin.},
   title = {Real-Time Edge Template Tracking via Homography Estimation},
   booktitle={IEEE/RSJ IROS},
