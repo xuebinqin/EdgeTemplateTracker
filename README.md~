@@ -18,9 +18,9 @@ git clone https://github.com/NathanUA/Edge_Template_Tracking_Dataset.git
 
 2. Go to the root directory run ```./STPF_main```. If it doesn't work, then you have to recompile it by command ```make```.
 
-3. Run on different mode
-Run the code on recorded videos by commend: "./STPF_main 1 ../../data/videos_avi/box_359.avi"
-Run the code on webcam videos by commend: "./STPF_main 0"
+3. Run on different modes <br>.
+Run the code on recorded videos by commend: "./STPF_main 1 ../../data/videos_avi/box_359.avi" (video path should be configured according to your settings).<br>
+Run the code on webcam videos by commend: "./STPF_main 0".<br>
 
 4. Initialize to-be-tracked edge template in the first frame.
 (1) Sequentially select the edge fragments by mouse left button clicking (mouse middle button scroll for zoom-in or zoom-out).
