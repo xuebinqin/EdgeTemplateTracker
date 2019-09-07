@@ -14,9 +14,9 @@ git clone https://github.com/NathanUA/EdgeTemplateTracker.git
 and Download the dataset
 ```
 git clone https://github.com/NathanUA/Edge_Template_Tracking_Dataset.git
-```<br>
+```
 
-2. Go to the root directory run ```./STPF_main```. If it doesn't work, then you have to recompile it by command ```make```.<br>
+2. Go to the root directory run ```./STPF_main```. If it doesn't work, then you have to recompile it by command ```make```.
 
 3. Run on different modes <br>.
 Run the code on recorded videos by commend: "./STPF_main 1 ../../data/videos_avi/box_359.avi" (video path should be configured according to your settings).<br>
